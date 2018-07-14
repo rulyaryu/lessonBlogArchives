@@ -1,0 +1,35 @@
+DB structure
+
+News
+	id
+	timestamps()
+	author_id
+	lead
+	title
+	content
+	slug
+	viewsCount
+
+Authors
+	id
+	name
+
+Categories
+	id
+	title
+
+Tags
+	id
+	title
+
+news_categories
+	id
+	news_id
+	category_id
+
+news_tags
+	id
+	news_id
+	tag_id
+
+Eloquent
